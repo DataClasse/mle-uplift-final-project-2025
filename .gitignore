@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environment
+uplift_env/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# Data files (не коммитим данные)
+data/*.csv
+data/*.json
+data/*.pkl
+data/*.pickle
+!data/.gitkeep
+
+# Generated pictures (будут созданы при выполнении)
+pictures/*.png
+pictures/*.jpg
+pictures/*.pdf
+!pictures/.gitkeep
+
+# MLflow
+mlruns/
+mlflow.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
